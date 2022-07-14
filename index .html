@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Converter</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="main.js"> </script>
+</head>
+
+<body>
+    <div class="text1"> TEMPERATURE CONVERTER </div>
+  <table width="70%" border="1">
+    <tr> 
+        <td class="desc"> FROM</td>
+        <td class="desc"> TO </td>
+    </tr>
+
+    <tr> 
+        <td> <input type="text" placeholder="Input Value" id="txtInput"></td>
+        <td class="result"> <span id="lblResult"> </span></td>
+
+    </tr>
+    <tr> 
+        <td>  
+            <select size="6" id="unitsFrom"> 
+            <option> Celcius (°C)</option> 
+            <option> Fahrenheit(°F) </option>
+            <option>  Kelvin (°K)</option>
+            <option> Rankine (°R)</option>
+            <option> Reaumur(°Re) </option>
+        </select>
+        </td> 
+        <td> 
+            <select size="6" id="unitsTo"> 
+                <option> Celcius (°C)</option> 
+                <option> Fahrenheit(°F) </option>
+                <option>  Kelvin (°K)</option>
+                <option> Rankine (°R)</option>
+                <option> Reaumur(°Re) </option>
+            </select>
+        </td> 
+    </tr>
+   
+    </tr> 
+  </table>
+
+<div class="end" align="center" colspan="2">
+    <button onclick="convert()" id="btn"> Convert
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
